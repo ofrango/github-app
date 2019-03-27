@@ -23,7 +23,7 @@ const AppContent = ({ userinfo, repos, starred }) => (
       className='starred'
       title='Favoritos'
       repos={starred} />}
-  </div>
+  </div> 
 )
 
 AppContent.propTypes = {
